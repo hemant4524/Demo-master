@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">MBank</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_address">Address</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="state_label">State:</string>
+    <string name="city_label">City:</string>
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="gujarat_city">
+        <item>Ahmedabad</item>
+        <item>Amreli District</item>
+        <item>Anand</item>
+        <item>Banaskantha</item>
+        <item>Bharuch</item>
+        <item>Bhavnagar</item>
+        <item>Dahod</item>
+        <item>The Dangs</item>
+        <item>Gandhinagar</item>
+        <item>Jamnagar</item>
+        <item>Junagadh</item>
+        <item>Kutch</item>
+        <item>Kheda</item>
+        <item>Mehsana</item>
+        <item>Narmada</item>
+        <item>Navsari</item>
+        <item>Patan</item>
+        <item>Panchmahal</item>
+        <item>Porbandar</item>
+        <item>Rajkot</item>
+        <item>Sabarkantha</item>
+        <item>Surendranagar</item>
+        <item>Surat</item>
+        <item>Vadodara</item>
+        <item>Valsad</item>
+        <item>Vapi</item>
+
+    </string-array>
+    <string-array name="vadodara_area">
+        <item>Abhol</item>
+        <item>Achisara</item>
+        <item>Adiran</item>
+        <item>Agar</item>
+        <item>Ajod</item>
+        <item>Ajwa Compound</item>
+        <item>Ajwa Road</item>
+        <item>Alhadpura</item>
+        <item>Alkapuri</item>
+        <item>Alva</item>
+        <item>Amaliyara</item>
+        <item>Ambada</item>
+        <item>Bachar</item>
+        <item>Bahadarpur</item>
+        <item>Bahutha</item>
+        <item>Bajwa</item>
+        <item>Bhindol</item>
+        <item>Bhoj</item>
+        <item>Bhorda</item>
+        <item>Bhumaswada</item>
+        <item>Bill</item>
+        <item>Bithli</item>
+        <item>Chandranagar</item>
+        <item>Chansad</item>
+        <item>Chanvada</item>
+        <item>Chapad</item>
+        <item>Chemical Industries</item>
+        <item>Chhaliar</item>
+        <item>Chhanbhoi</item>
+        <item>Chhanchava</item>
+        <item>Chhani</item>
+        <item>Chhani Rd</item>
+        <item>Chhatral</item>
+        <item>Chhatrali</item>
+        <item>Dabhoi Vadodari bhagol</item>
+        <item>Dabka</item>
+        <item>Dajipura</item>
+        <item>Dani</item>
+        <item>Danteshwar</item>
+        <item>Dungargam</item>
+        <item>Dungarvant</item>
+        <item>Ekalbara</item>
+        <item>Ekelbara</item>
+        <item>Eme</item>
+        <item>Falod</item>
+        <item>Fanta</item>
+        <item>Fartikui</item>
+        <item>Fartilizer Nagar</item>
+        <item>Fateganj</item>
+        <item>Fatepura</item>
+        <item>Fazalpur</item>
+        <item>Ferkuva</item>
+        <item>Gabhirpura</item>
+        <item>Gadhboriad</item>
+        <item>Gametha</item>
+        <item>Gandhara</item>
+        <item>Ganeshpura</item>
+        <item>Gangadia</item>
+        <item>Ganpatpura</item>
+        <item>Garda</item>
+        <item>Gardhia</item>
+        <item>Gavasad</item>
+        <item>Geb</item>
+        <item>Ghantiyal</item>
+        <item>Ghantoli</item>
+        <item>Ghayaj</item>
+        <item>Ghelawant</item>
+        <item>Ghodadara</item>
+        <item>Gola Gamdi</item>
+        <item>Goraj</item>
+        <item>Goriyad</item>
+        <item>Gorwa</item>
+        <item>Gosindra</item>
+        <item>Gothda</item>
+        <item>Gotri</item>
+        <item>Goyawant</item>
+        <item>Gundicha</item>
+        <item>Gutal</item>
+        <item>Handod</item>
+        <item>Harakhapur</item>
+        <item>Hareshwar</item>
+        <item>Haripura</item>
+        <item>Harni</item>
+        <item>Harni Colony</item>
+        <item>Himmatpura</item>
+        <item>Husepura</item>
+        <item>Indrad</item>
+        <item>Indral</item>
+        <item>Industrial Estate</item>
+        <item>Itola</item>
+        <item>Itola R.s.</item>
+        <item>Itwad</item>
+        <item>Jabugam</item>
+        <item>Jakshi</item>
+        <item>Jalalpura</item>
+        <item>Jaloda</item>
+        <item>Jamba</item>
+        <item>Jambugoral</item>
+        <item>Jambuva</item>
+        <item>Juni Jathardi</item>
+        <item>Kadachhala</item>
+        <item>Kadadhara</item>
+        <item>Kadchhala</item>
+        <item>Kadipani</item>
+        <item>Kadvad</item>
+        <item>Kolamba</item>
+        <item>Kosindra</item>
+        <item>Kundhela</item>
+        <item>Kurai</item>
+        <item>Pavijetpur</item>
+        <item>Petrochemical</item>
+        <item>Petrochemical t ship</item>
+        <item>Picchuwada</item>
+        <item>Rasulpur</item>
+        <item>Ratanpur</item>
+        <item>Ratanpura</item>
+        <item>Raval</item>
+        <item>Sampla</item>
+        <item>Samra</item>
+        <item>Saniad</item>
+        <item>Sankarda</item>
+        <item>Sharadnagar</item>
+        <item>Sherkhi</item>
+        <item>Timba</item>
+        <item>Tithor</item>
+        <item>Totarmata</item>
+        <item>Tulsipura</item>
+        <item>Tundav</item>
+        <item>Uchapan</item>
+        <item>Umaraya</item>
+        <item>Umarva</item>
+        <item>Umathi</item>
+        <item>Undera</item>
+        <item>Urad</item>
+        <item>Vachhesar</item>
+        <item>Vaghodia</item>
+        <item>Vaguma</item>
+        <item>Vakaner</item>
+        <item>Vaktapura</item>
+        <item>Valan</item>
+        <item>Valavav</item>
+        <item>Valothi</item>
+        <item>Virpur</item>
+        <item>Vistar</item>
+        <item>Vyankatpura</item>
+        <item>Vyara Antoli</item>
+        <item>Zanzad</item>
+        <item>Zer</item>
+        <item>Zoz</item>
+    </string-array>
+</resources>
