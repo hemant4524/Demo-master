@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvSaveInfo"
+    android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="2dp"
+    card_view:contentPadding="10dp">
 
-    <com.facebook.drawee.view.SimpleDraweeView
-        android:id="@+id/rclist_ivPhoto"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/ic_person_black_24dp"
-        android:visibility="visible" />
-
-    <TextView
-        android:id="@+id/rclist_tvName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hemant"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/rclist_ivPhoto"
-        android:layout_toEndOf="@+id/rclist_ivPhoto" />
-
-    <TextView
-        android:id="@+id/rclist_tvAccountNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Acc001"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/rclist_ivPhoto"
-        android:layout_toEndOf="@+id/rclist_ivPhoto" />
-    <View
-        android:layout_marginTop="2dp"
-        android:layout_below="@+id/rclist_ivPhoto"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000000"></View>
-</RelativeLayout>
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/rclist_ivPhoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_person_black_24dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/rclist_tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/rclist_ivPhoto"
+            android:layout_toRightOf="@+id/rclist_ivPhoto"
+            android:text="Hemant" />
+
+        <TextView
+            android:id="@+id/rclist_tvAccountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/rclist_ivPhoto"
+            android:layout_toRightOf="@+id/rclist_ivPhoto"
+            android:text="Acc001" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rclist_ivPhoto"
+            android:layout_marginTop="2dp"
+            android:background="#000000"></View>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

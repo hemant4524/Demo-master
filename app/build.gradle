@@ -22,13 +22,17 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:design:23.1.1'
+    compile project(':CommonUtilsLib')
+    compile project(':BottomNavigationViewLibrary')
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:cardview-v7:23.2.1'
     compile 'com.toptoche.searchablespinner:searchablespinnerlibrary:1.1.0'
     compile 'com.wdullaer:materialdatetimepicker:2.3.0'
     compile 'com.jakewharton:butterknife:5.1.1'
-    compile 'com.facebook.fresco:fresco:0.9.0+'
+    compile 'com.facebook.fresco:fresco:0.8.1'
     compile 'com.github.devlight.navigationtabbar:library:1.1.1'
-
-    compile project(':CommonUtilsLib')
+    compile 'com.jakewharton:butterknife:5.1.1'
+    compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.1.3'
 }
