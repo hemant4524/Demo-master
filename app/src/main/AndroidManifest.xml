@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.Base.Purple.Dark">
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".activity.SplashActivty"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -24,6 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"></activity>
         <activity android:name=".activity.MainActivity"
             android:screenOrientation="portrait"></activity>
         <activity android:name=".activity.HomeActivity"
